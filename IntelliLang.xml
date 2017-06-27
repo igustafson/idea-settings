@@ -8,5 +8,9 @@
       <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("select").withParameters("java.lang.String").definedInClass("com.swirl.util.MySQLConnection"))]]></place>
       <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("selectOne").withParameters("java.lang.String").definedInClass("com.swirl.util.MySQLConnection"))]]></place>
     </injection>
+    <injection language="POSTGRES-SQL" injector-id="java">
+      <display-name>RedshiftConnection.execute (com.swirl.util)</display-name>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("execute").withParameters("java.lang.String").definedInClass("com.swirl.util.RedshiftConnection"))]]></place>
+    </injection>
   </component>
 </application>
